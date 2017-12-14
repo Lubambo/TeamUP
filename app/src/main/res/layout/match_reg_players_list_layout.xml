@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="4dp"
+    android:paddingLeft="8dp"
+    android:paddingBottom="4dp"
+    android:paddingRight="8dp"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="4"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccentDark"
+        android:text="Nome principal"/>
+
+    <ImageView
+        android:id="@+id/player_skill"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:tint="@color/colorAccentDark"
+        android:paddingLeft="8dp"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

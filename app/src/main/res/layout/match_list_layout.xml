@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="4dp"
+    android:paddingLeft="8dp"
+    android:paddingBottom="4dp"
+    android:paddingRight="8dp"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/match_name"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="4"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="Nome Principal"/>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_weight="1"
+        android:paddingLeft="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:tint="@color/colorAccent"
+            android:visibility="visible"
+            android:src="@mipmap/match_players_list_icon"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/players_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="20"
+            android:visibility="visible"/>
+
+    </FrameLayout>
+
+</LinearLayout>

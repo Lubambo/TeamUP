@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/players_counter_box"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:tint="@color/colorAccentDark"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/match_players_list_icon"/>
+
+    <TextView
+        android:id="@+id/match_profile_players_qty_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryMedium"
+        android:text="0"/>
+
+</RelativeLayout>

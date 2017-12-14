@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00B8B4</color>
+    <color name="colorPrimaryDark">#340040</color>
+    <color name="colorPrimaryMedium">#EAF205</color>
+    <color name="colorPrimaryLight">#05F26C</color>
+    <color name="colorAccent">#FDFDFD</color>
+    <color name="colorAccentMedium">#95989A</color>
+    <color name="colorAccentDark">#323232</color>
+
+    <!-- cold palette !->
+    <color name="cpDeepGray">#424242</color>
+    <color name="cpDarkGray">#5A5D60</color>
+    <color name="cpMediumtGray">#95989A</color>
+    <color name="cpLightGray">#D0D6DA</color>
+    <color name="cpWhite">#FDFDFD</color>
+    <color name="cpDarkBlue">#5CB0D2</color>
+    <color name="cpMediumBlue">#A1CBDE</color>
+    <color name="cpLightBlue">#5DC4EB</color>
+    -->
+
+    <!-- premier league palette !->
+    <color name="plDeepPurple">#340040</color>
+    <color name="plDarkPurple">#5D2345</color>
+    <color name="plMediumPurple">#A1214D</color>
+    <color name="plLightPurple">#E8305A</color>
+    <color name="plWhite">#F8F8F8</color>
+    <color name="plDarkGray">#9F9DA6</color>
+    <color name="plLightGray">#CECECF</color>
+    <color name="plYellow">#EAF205</color>
+    <color name="plCyan">#07F2F2</color>
+    <color name="plGreen">#05F26C</color>
+    -->
+
+    <!-- football stadium palette
+    <color name="fsDarkGray">#3A3C39</color>
+    <color name="fsMediumGray">#9A9D9F</color>
+    <color name="fsLightGray">#DEE3EA</color>
+    <color name="fsGreen">#3BA661 </color>
+    <color name="fsWhite">#</color>
+    -->
+
+    <!-- neon style palette
+    <color name="nsGray">#424242</color>
+    <color name="nsYellow">#FFF200</color>
+    <color name="nsDarkGreen">#6E8900</color>
+    <color name="nsMediumGreen">#9DC400</color>
+    <color name="nsLightGreen">#D0FF14</color>
+    <color name="nsOrange">#FFB300</color>
+    <color name="nsWhite">#FFFFFF</color>
+    <color name="nsPurple">#5D2345</color>
+    -->
+
+    <!-- basic matiz palette
+    <color name="bmCyan">#00FFFF</color>
+    <color name="bmMagenta">#FF00BF</color>
+    <color name="bmYellow">#FFFF00</color>
+    <color name="bmGray">#424242</color>
+    <color name="bmWhite">#FDFDFF</color>
+    -->
+
+</resources>

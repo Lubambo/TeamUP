@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/players_per_team_box"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="16dp"
+        android:tint="@color/colorPrimaryMedium"
+        android:src="@mipmap/player_per_team"/>
+
+    <Spinner
+        android:id="@+id/match_profile_players_per_team_spinner"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:popupBackground="@color/colorAccentMedium"
+        android:dropDownWidth="48dp"
+        android:backgroundTint="@android:color/transparent"
+        android:pointerIcon="arrow"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="visible">
+    </Spinner>
+
+</RelativeLayout>

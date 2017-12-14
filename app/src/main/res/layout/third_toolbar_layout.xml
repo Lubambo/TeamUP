@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/secundary_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:gravity="center_vertical"
+    android:fitsSystemWindows="true"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_profile_screen_layout"/>
+
+    <ImageButton
+        android:id="@+id/sec_toolbar_remove_button"
+        android:layout_width="40dp"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="0dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:tint="@color/colorAccentDark"
+        android:src="@mipmap/ic_action_delete"
+        android:layout_alignParentRight="true"
+        android:visibility="visible"/>
+
+    <ImageButton
+        android:id="@+id/sec_toolbar_edit_button"
+        android:layout_width="40dp"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="0dp"
+        android:layout_marginRight="12dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:tint="@color/colorAccentDark"
+        android:src="@mipmap/ic_action_edit"
+        android:layout_toLeftOf="@+id/sec_toolbar_remove_button"
+        android:visibility="visible"/>
+
+</RelativeLayout>

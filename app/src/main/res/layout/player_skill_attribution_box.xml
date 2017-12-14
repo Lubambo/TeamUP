@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/skill_attribution_box"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <RadioGroup
+        android:id="@+id/skills_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/radio_skill_one"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/skill_one_radio_button_style"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radio_skill_two"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/skill_two_radio_button_style"/>
+
+        <RadioButton
+            android:id="@+id/radio_skill_three"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/skill_three_radio_button_style"/>
+
+        <RadioButton
+            android:id="@+id/radio_skill_four"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="6dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/skill_four_radio_button_style"/>
+
+        <RadioButton
+            android:id="@+id/radio_skill_five"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/skill_five_radio_button_style"/>
+
+    </RadioGroup>
+
+</LinearLayout>

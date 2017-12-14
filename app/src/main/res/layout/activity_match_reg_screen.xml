@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/match_registration_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryMedium"
+    tools:context="com.teamup.teamsgenerator.MatchRegistrationScreen.MatchRegScreen">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_reg_screen_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:weightSum="12">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:tint="@color/colorAccentDark"
+            android:src="@mipmap/match_location"/>
+
+        <EditText
+            android:id="@+id/match_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/image_header_spacer"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/colorAccentDark"
+            android:backgroundTint="@color/colorAccentDark"
+            android:textColorHint="@color/colorAccentDark"
+            android:hint="Local da partida"/>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            layout="@layout/players_counter"/>
+
+        <ListView
+            android:id="@+id/match_players_listview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8">
+
+        </ListView>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="2"
+            layout="@layout/save_cancel_buttons_box"/>
+
+    </LinearLayout>
+
+</LinearLayout>
